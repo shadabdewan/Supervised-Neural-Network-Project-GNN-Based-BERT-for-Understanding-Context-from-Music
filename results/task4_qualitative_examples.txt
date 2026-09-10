@@ -1,0 +1,84 @@
+=========================================================================
+TASK 4: QUALITATIVE CAPTION-TO-AUDIO RETRIEVAL EXAMPLES
+=========================================================================
+
+Example 01 [✗ Top-3 Match]
+Caption       : "This slow jazz song features male voices singing the main melody in harmony. This is accompanied by percussion playing a simple beat. The double bass plays the root notes of the chords. Trumpets play a fill in harmony in between lines. A piano plays an arpeggiated chord at the end of the first line. This song has a romantic mood. This song can be played in a classic romantic movie."
+Target Audio  : -XkbErI_7EU.wav
+Top-3 Retrieved Audio Clips:
+  Rank 1: 0BFauf6TGGU.wav      (Similarity: 0.0282)
+  Rank 2: 14hTDUjCr_g.wav      (Similarity: 0.0150)
+  Rank 3: 18mS4cLPOb8.wav      (Similarity: 0.0121)
+---------------------------------------------------------------------------
+Example 02 [✓ Top-3 Match]
+Caption       : "The low quality recording features a low windpipe vocal sound played in nature, surrounded by flowing water and chirping birds sound effects. Sounds a bit harsh and loud, as the tone of the windpipe is constantly changing."
+Target Audio  : -Vo4CAMX26U.wav
+Top-3 Retrieved Audio Clips:
+  Rank 1: 0BFauf6TGGU.wav      (Similarity: -0.0262)
+  Rank 2: -Vo4CAMX26U.wav      (Similarity: -0.0385) [MATCH]
+  Rank 3: -sRFfU8k0Zs.wav      (Similarity: -0.0390)
+---------------------------------------------------------------------------
+Example 03 [✗ Top-3 Match]
+Caption       : "This is an Arabic movie music piece. It is an instrumental piece. There is a clarinet playing a vague melody. The sound of knives being rubbed against one another can be heard. There is an ominous, terrifying atmosphere. This piece could be used in the soundtrack of a horror movie to imply the feeling of hopelessness."
+Target Audio  : -sRFfU8k0Zs.wav
+Top-3 Retrieved Audio Clips:
+  Rank 1: 0Wdh45yt7tY.wav      (Similarity: -0.0288)
+  Rank 2: 18mS4cLPOb8.wav      (Similarity: -0.0316)
+  Rank 3: 14hTDUjCr_g.wav      (Similarity: -0.0334)
+---------------------------------------------------------------------------
+Example 04 [✓ Top-3 Match]
+Caption       : "A male and female child singers sing this vocal duet in harmony. The song is medium tempo with keyboard accompaniment , groovy bass line and an enthusiastic drumming rhythm. The song is passionate and loving. The song is a retro tv show tune and in poor audio quality."
+Target Audio  : 0vFPs6XsU_Q.wav
+Top-3 Retrieved Audio Clips:
+  Rank 1: -sRFfU8k0Zs.wav      (Similarity: -0.0326)
+  Rank 2: 0soVCtJgDTk.wav      (Similarity: -0.0373)
+  Rank 3: 0vFPs6XsU_Q.wav      (Similarity: -0.0394) [MATCH]
+---------------------------------------------------------------------------
+Example 05 [✗ Top-3 Match]
+Caption       : "This is an amateur recording of a dance performance over a latin dance music piece in the style of zumba. There is a female dance instructor shouting directions to the dancers. There is a male vocalist singing melodically in the background piece. A strong bass and a loud electronic drum beat can be heard very distinctly. The atmosphere is energetic. The quality of the recording is quite poor."
+Target Audio  : -_6RxZyi30Q.wav
+Top-3 Retrieved Audio Clips:
+  Rank 1: 0BFauf6TGGU.wav      (Similarity: -0.0010)
+  Rank 2: 18mS4cLPOb8.wav      (Similarity: -0.0039)
+  Rank 3: -sRFfU8k0Zs.wav      (Similarity: -0.0094)
+---------------------------------------------------------------------------
+Example 06 [✗ Top-3 Match]
+Caption       : "This is a Hindustani classical music piece. There is a harmonium playing the main tune. A bansuri joins in to play, supporting a melody every now and then. The rhythmic background consists of the tabla percussion and the electronic drums. The atmosphere of the piece is joyful."
+Target Audio  : -BIMKnb3tlo.wav
+Top-3 Retrieved Audio Clips:
+  Rank 1: 0Wdh45yt7tY.wav      (Similarity: -0.0144)
+  Rank 2: 18mS4cLPOb8.wav      (Similarity: -0.0150)
+  Rank 3: 0M7nETLOsKQ.wav      (Similarity: -0.0175)
+---------------------------------------------------------------------------
+Example 07 [✗ Top-3 Match]
+Caption       : "An acoustic drum and a bass are repeating the same pattern along with two e-guitars playing along with the melody while a male voice sings slightly soulful and loud. In the background a crowd is sheering. The recording is of very poor audio quality. This song may be playing at a live concert."
+Target Audio  : 1MwaXCfUvX8.wav
+Top-3 Retrieved Audio Clips:
+  Rank 1: 0BFauf6TGGU.wav      (Similarity: -0.0045)
+  Rank 2: -sRFfU8k0Zs.wav      (Similarity: -0.0091)
+  Rank 3: 1Ccis4FDGwY.wav      (Similarity: -0.0119)
+---------------------------------------------------------------------------
+Example 08 [✓ Top-3 Match]
+Caption       : "This music is a spirited instrumental. The tempo is fast with an animated Piano harmony, synthesiser  arrangements, synthesised violins, rhythmic digital drums, funky bass lines and electronic sounds. The music is superimposed over sounds of tapping and rhythmic beeping. The music is happy, perky, upbeat, enthusiastic, lively and spirited."
+Target Audio  : -Q9MTRXS4bE.wav
+Top-3 Retrieved Audio Clips:
+  Rank 1: 0EzWmAPwoTs.wav      (Similarity: -0.0133)
+  Rank 2: 0bvPjMQ_WbE.wav      (Similarity: -0.0159)
+  Rank 3: -Q9MTRXS4bE.wav      (Similarity: -0.0189) [MATCH]
+---------------------------------------------------------------------------
+Example 09 [✗ Top-3 Match]
+Caption       : "The low quality recording features an advertisement that consists of camera shuttering effects and high pitched down sweeps, followed by arpeggiated strings melody, orchestra percussions and synth sound effects playing in the background. It sounds exciting and epic."
+Target Audio  : 0soVCtJgDTk.wav
+Top-3 Retrieved Audio Clips:
+  Rank 1: 0BFauf6TGGU.wav      (Similarity: -0.0317)
+  Rank 2: -Vo4CAMX26U.wav      (Similarity: -0.0318)
+  Rank 3: 1Ccis4FDGwY.wav      (Similarity: -0.0346)
+---------------------------------------------------------------------------
+Example 10 [✓ Top-3 Match]
+Caption       : "The song is an instrumental. The song is medium tempo with an accordion accompaniment, violin solo and a flute melody. The song is beautiful and nostalgic. The audio quality is poor. The song has an old gypsy soul to it."
+Target Audio  : 0Wdh45yt7tY.wav
+Top-3 Retrieved Audio Clips:
+  Rank 1: 0Wdh45yt7tY.wav      (Similarity: -0.0300) [MATCH]
+  Rank 2: 1Ccis4FDGwY.wav      (Similarity: -0.0350)
+  Rank 3: 18mS4cLPOb8.wav      (Similarity: -0.0351)
+---------------------------------------------------------------------------
